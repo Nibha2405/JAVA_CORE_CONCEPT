@@ -1,4 +1,4 @@
-public class Solution {
+public class MergeStringsAlternately {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder s = new StringBuilder();
         int maxLength = Math.max(word1.length(), word2.length());
